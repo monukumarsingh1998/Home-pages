@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color:rgb(100, 96, 100);
+                text-align:center;
+                color:white;
+                margin: 0px;
+            }
+            .nav{
+                background-color:rgb(112, 9, 112);
+                color:white;
+                text-align: center;
+                padding:15px;
+                
+                
+
+            }
+            .nav a{
+                margin-left: 15px;
+                text-decoration: none;
+                color:white;
+
+                
+
+
+            }
+            #hello{
+                float:right;
+                margin-right:40px;
+               
+            }
+            .nav a:hover{
+                background-color: rgb(185, 45, 185);
+                overflow:hidden;
+                padding:14px;
+
+            }
+            .btn1{
+                background-color:aqua;
+                color:white;
+                padding:10px 20px;
+                border-style:none;
+                border-radius:2px;
+            }
+            .btn2{
+                border-color:aqua;
+                color:violet;
+                padding:10px 30px;
+                border-radius:2px;
+                border-style:none;
+            }
+        
+
+
+        </style>
+    </head> 
+    <body>
+        
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Hosting</a>
+            <a href="#">Pages</a>
+            <a href="#">shop</a>
+            <a href="#">Blog</a>
+            <a href="#">Content</a>
+            <a href="#" id="hello">Search</a>
+
+        </div><br><br><br>
+        <h4>Fast & Secure best</h4> 
+        <h4>web hosting</h4>
+        <button class="btn1"><b>Get Started</b></button>
+       <a href="Login.html"> <button class="btn2"><b>Login</b></button></a>
+
+        
+
+        
+    </body>
+</html>
